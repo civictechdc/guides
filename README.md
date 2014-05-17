@@ -124,17 +124,29 @@ As mentioned above, git works by holding a central repo of all of the files, to 
 
 Once you're set up with Github, look around this page (mostly near the top) and you'll notice a few things.
 
-First, the name of the repo and its owner. This is listed on the page, as well as in the URL. Right below that, in the gray bar, you can check out the commit history of the repo, which can show you which change happened when. For example, in this repo, you can see that the first commit included a few files, and then later commits added some screenshots.
+First, the name of the repo and its owner. This is listed on the page, as well as in the URL. Right below that, in the gray bar, you can check out the commit history of the repo, which can show you which change happened when. For example, [in this repo](https://github.com/codefordc/getting-started/commits/master), you can see that the [first commit](https://github.com/codefordc/getting-started/commit/1b08f69b2fd5837af42dc12326bd9394414dfbe5) included a few files, the [second commit](https://github.com/codefordc/getting-started/commit/4fb3ad2022931b5a057f4ffe0061c832454ce4d1) was a commit from a pull request, the [third commit](https://github.com/codefordc/getting-started/commit/044f148863601491e1dce26f1f14dc25e4d513b0) merged that commit from a fork of the repo into the Code for DC repo (it might look confusing because @stvnrlly made both commits), and the fourth commit added screenshots and more text to this document.
+
+![](./img/github-repo-owner.png)
 
 Second, to the right of the code, the `Issues` and `Pull Requests` tabs. Issues are for discussing ideas and problems with the repo. Pull requests are how you ask to have your commits added to the repo, which we'll cover once you've pushed some commits to your own version of the repo.
 
+![](./img/github-repo-issues.png)
+
 Third, the `Fork` button up in the top right. If you don't have push permissions for the repo (unless it's your repo or the owner has granted you push access, you probably don't), the way to collaborate on a repo is to fork it. This copies the repo and creates your own separate version that you control. You can push commits to it as much as you want without affecting the repo from which you forked it.
+
+![](./img/github-repo-fork.png)
 
 So, how do you add your code to the main repo? By making a pull request. This tells the repo's owner that you'd like them to merge some of your commits from your fork into the main repo. Before you do that, though, you'll need to make some commits, and that means doing some coding.
 
 To work on the code, you'll need to get a local copy of the repo. Get started by clicking that `Fork` button, which will take you to your own special version of the repo. As you can see, this repo has the full commit history of the repo you just forked, but will not include future changes without a pull request.
 
-Then, check down in the lower right side of the navbar. You'll see an HTTPS or SSH `clone URL`. Copy this and head back to the Terminal. There, all you have to do is this:
+![](./img/github-forked-owner.png)
+
+Then, check down in the lower right side of the navbar. You'll see an HTTPS or SSH `clone URL`.
+
+![](./img/github-forked-clone.png)
+
+Copy this and head back to the Terminal. There, all you have to do is this:
 
     $ git clone [that clone URL you just copied]
 
@@ -189,8 +201,18 @@ Excellent! You have now edited your repo. Now it's time to request that your cha
 
 ## Making a Pull Request
 
-Back on Github, open up your repo. Remember that `Pull Requests` tab over on the right? Well, now we're going to use it. On that page, just click the `New pull request` button up on the right. You can use the fancy tool to compare your repo against the Code for DC repo, and the hit `Create Pull Request`.
+Back on Github, open up your repo. Remember that `Pull Requests` tab over on the right? Well, now we're going to use it. On that page, just click the `New pull request` button up on the right. You'll end up here:
 
-That's it! The owner might accept your request and merge the commits, discuss it and perhaps ask for some changes to the commits, or decline to accept it. In this case, we probably won't accept your first pull request. This is so that you can practice editing and re-submitting a request, and has nothing to do with how good the commits are.
+![](./img/github-pullrequest-start.png)
+
+Github will automatically compare your repo against the Code for DC repo. If everything outside of your committed changes is the same in both repos, Github will tell you that the pull request can be automatically merged, which will help the owner of the other repo. You can (should) also enter a message explaining what the commits in your pull request will do. Once you're satisfied, hit `Create Pull Request`.
+
+![](./img/github-pullrequest-message.png)
+
+That's it! On the other side, your pull request will look like this:
+
+![](./img/github-pullrequest-approval.png)
+
+The owner might accept your request and merge the commits, discuss it and perhaps ask for some changes to the commits, or decline to accept it. In this case, we probably won't accept your first pull request. This is so that you can practice editing and re-submitting a request, and has nothing to do with how good the commits are.
 
 Now you're ready to take on a new challenge, either by finding a [Code for DC project](codefordc.org/projects) to work on, or by creating a new project to add to that list. Happy hacking!
