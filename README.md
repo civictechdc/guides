@@ -124,7 +124,7 @@ As mentioned above, git works by holding a central repo of all of the files, to 
 
 Once you're set up with Github, look around this page (mostly near the top) and you'll notice a few things.
 
-First, the name of the repo and its owner. This is listed on the page, as well as in the URL. Right below that, in the gray bar, you can check out the commit history of the repo, which can show you which change happened when. For example, [in this repo](https://github.com/codefordc/getting-started/commits/master), you can see that the [first commit](https://github.com/codefordc/getting-started/commit/1b08f69b2fd5837af42dc12326bd9394414dfbe5) included a few files, the [second commit](https://github.com/codefordc/getting-started/commit/4fb3ad2022931b5a057f4ffe0061c832454ce4d1) was a commit from a pull request, the [third commit](https://github.com/codefordc/getting-started/commit/044f148863601491e1dce26f1f14dc25e4d513b0) merged that commit from a fork of the repo into the Code for DC repo (it might look confusing because @stvnrlly made both commits), and the fourth commit added screenshots and more text to this document.
+First, the name of the repo and its owner. This is listed on the page, as well as in the URL. Right below that, in the gray bar, you can check out the commit history of the repo, which can show you which change happened when. For example, [in this repo](https://github.com/codefordc/getting-started/commits/master), you can see that the [first commit](https://github.com/codefordc/getting-started/commit/1b08f69b2fd5837af42dc12326bd9394414dfbe5) included a few files, the [second commit](https://github.com/codefordc/getting-started/commit/4fb3ad2022931b5a057f4ffe0061c832454ce4d1) was a commit from a pull request, the [third commit](https://github.com/codefordc/getting-started/commit/044f148863601491e1dce26f1f14dc25e4d513b0) merged that commit from a fork of the repo into the Code for DC repo (it might look confusing because @stvnrlly made both commits), and the [fourth commit](https://github.com/codefordc/getting-started/commit/defc8390dce25e61236f350311e124d0bea80d48) added screenshots and more text to this document.
 
 ![](./img/github-repo-owner.png)
 
@@ -205,7 +205,7 @@ Back on Github, open up your repo. Remember that `Pull Requests` tab over on the
 
 ![](./img/github-pullrequest-start.png)
 
-Github will automatically compare your repo against the Code for DC repo. If everything outside of your committed changes is the same in both repos, Github will tell you that the pull request can be automatically merged, which will help the owner of the other repo. You can (should) also enter a message explaining what the commits in your pull request will do. Once you're satisfied, hit `Create Pull Request`.
+Github will automatically compare your repo against the Code for DC repo. If everything outside of your committed changes is the same in both repos (this might not be the case if somebody pushed a commit to the file you're working on since you began working), Github will tell you that the pull request can be automatically merged, which will help the owner of the other repo. You can (should) also enter a message explaining what the commits in your pull request will do. Once you're satisfied, hit `Create Pull Request`.
 
 ![](./img/github-pullrequest-message.png)
 
