@@ -128,7 +128,7 @@ First, the name of the repo and its owner. This is listed on the page, as well a
 
 ![](./img/github-repo-owner.png)
 
-Second, to the right of the code, the `Issues` and `Pull Requests` tabs. Issues are for discussing ideas and problems with the repo. Pull requests are how you ask to have your commits added to the repo, which we'll cover once you've pushed some commits to your own version of the repo.
+Second, to the right of the code, the `Issues` and `Pull Requests` tabs. Issues are for discussing ideas and problems with the repo. Check out the [issues for this repo](https://github.com/codefordc/getting-started/issues) to see what we're discussing; maybe you can help resolve one of them! Pull requests are how you ask to have your commits added to the repo, which we'll cover once you've pushed some commits to your own version of the repo.
 
 ![](./img/github-repo-issues.png)
 
@@ -138,7 +138,7 @@ Third, the `Fork` button up in the top right. If you don't have push permissions
 
 So, how do you add your code to the main repo? By making a pull request. This tells the repo's owner that you'd like them to merge some of your commits from your fork into the main repo. Before you do that, though, you'll need to make some commits, and that means doing some coding.
 
-To work on the code, you'll need to get a local copy of the repo. Get started by clicking that `Fork` button, which will take you to your own special version of the repo. As you can see, this repo has the full commit history of the repo you just forked, but will not include future changes without a pull request.
+To work on the code, you'll need to get a local copy of the repo. Get started by clicking that `Fork` button, which will take you to your own special version of the repo. As you can see, this repo has the full commit history of the repo you just forked, but it will not include future changes without a pull request. If you go look at [@stvnrlly's fork](https://github.com/stvnrlly/getting-started), for instance, you'll see that it doesn't have any of the more recent commits to the Code for DC repo, but it does have some commits unique to the fork.
 
 ![](./img/github-forked-owner.png)
 
