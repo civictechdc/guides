@@ -2,9 +2,13 @@
 
 Here are some useful guides that might come in handy
 
-## Command Line (OSX and Linux)
+## Command Line
 
+[A Command Line Primer for Beginners](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything): Good general command line primer
 
+[The designer’s guide to the OSX command prompt](http://wiseheartdesign.com/articles/2010/11/12/the-designers-guide-to-the-osx-command-prompt/): Mac command line guide
+
+[Command Prompt Basics - A Getting Started Guide](http://dosprompt.info/): Windows command line guide
 
 ## Git
 
@@ -24,7 +28,7 @@ Here are some useful guides that might come in handy
 
 [Codecademy](http://www.codecademy.com/tracks/python): an online course with lessons and exercises
 
-[Learn Python the Hard way](http://learnpythonthehardway.org/)
+[Learn Python the Hard way](http://learnpythonthehardway.org/): great way to learn python
 
 ## Ruby
 
@@ -34,18 +38,45 @@ Here are some useful guides that might come in handy
 
 [why's (poignant) guide to ruby](http://www.rubyinside.com/media/poignant-guide.pdf) (PDF): it's incredible
 
-## Web development
-[bentobox.io](http://www.bentobox.io/) learn everything you need to know about web development and more (html,css,js,git,sql,sublime,jquery,etc)
+## Javascript
+[Eloquent JavaScript](http://eloquentjavascript.net/contents.html)
+
+## Web development (web dev)
+[bentobox.io](http://www.bentobox.io/): learn everything you need to know about web development and more (html,css,js,git,sql,sublime,jquery,etc)
+
+[Mozilla Developer Network Web Development](https://developer.mozilla.org/en-US/docs/Web_Development): great intro to web development (html,css,javascript,etc)
 
 [W3C Schools](http://www.w3schools.com/)
 
-## Programming
+## General Programming & Misc
 [Lifehacker's Learn to Code]
-(http://lifehacker.com/5744113/learn-to-code-the-full-beginners-guide)
+(http://lifehacker.com/5744113/learn-to-code-the-full-beginners-guide): general programming guide; explains variables, data types, arrays, logic statements, functions, etc
 
-[Become a Programmer, Motherfucker]
-(http://programming-motherfucker.com/become.html)
+[List of Free Programming Books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#professional-development)
+
+[Become a Programmer]
+
+(http://programming-motherfucker.com/become.html): offensive but useful links
+
+[CodeAvengers](http://www.codeavengers.com/)
 
 ## Amazon Web Services (AWS)
+
 [EC2 For Poets](http://ec2.forpoets.org/)
+
+## R 
+
+[Try R](http://tryr.codeschool.com/): Learn R from your browser
+
+[R Twotorials](http://www.twotorials.com/)
+
+[Beginner's Guide to R](http://www.computerworld.com/s/article/9239625/Beginner_s_guide_to_R_Introduction)
+
+[An Introduction to R](http://cran.r-project.org/doc/manuals/R-intro.pdf)
+
+[The Guerilla Guide to R](http://www.r-bloggers.com/the-guerilla-guide-to-r/)
+
+## GIS (QGIS)
+
+[QGIS Basics for Journalists](http://multimedia.journalism.berkeley.edu/tutorials/qgis-basics-journalists/): great introduction to QGIS 
 
