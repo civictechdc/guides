@@ -16,9 +16,15 @@ Here are some useful guides that might come in handy
 
 [Visual Git](https://marklodato.github.io/visual-git-guide/index-en.html): a graphical explanation, in case you prefer a visual approach
 
+[GitHub Cheatsheet](https://github.com/tiimgreen/github-cheat-sheet)
+
+[A Guide to Github Pages](http://www.thinkful.com/learn/a-guide-to-using-github-pages/)
+
 ## Python
 
 [Codecademy](http://www.codecademy.com/tracks/python): an online course with lessons and exercises
+
+[Learn Python the Hard way](http://learnpythonthehardway.org/)
 
 ## Ruby
 
@@ -27,3 +33,19 @@ Here are some useful guides that might come in handy
 [Codecademy](http://www.codecademy.com/tracks/ruby): an online course with lessons and exercises
 
 [why's (poignant) guide to ruby](http://www.rubyinside.com/media/poignant-guide.pdf) (PDF): it's incredible
+
+## Web development
+[bentobox.io](http://www.bentobox.io/) learn everything you need to know about web development and more (html,css,js,git,sql,sublime,jquery,etc)
+
+[W3C Schools](http://www.w3schools.com/)
+
+## Programming
+[Lifehacker's Learn to Code]
+(http://lifehacker.com/5744113/learn-to-code-the-full-beginners-guide)
+
+[Become a Programmer, Motherfucker]
+(http://programming-motherfucker.com/become.html)
+
+## Amazon Web Services (AWS)
+[EC2 For Poets](http://ec2.forpoets.org/)
+
