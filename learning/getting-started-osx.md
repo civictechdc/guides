@@ -42,12 +42,30 @@ The current directory is notated as `.`. The directory above that is notated as 
     .
     ├── README.md
     ├── graffiti.md
-    ├── hello-world
-    │   ├── hello-world.py
-    │   └── hello-world.rb
-    ├── img
-    │   └── terminal-start.png
-    └── resources.md
+    ├── learning
+    │   ├── getting-started-osx.md
+    │   ├── hello-world
+    │   │   ├── hello-world.py
+    │   │   └── hello-world.rb
+    │   ├── img
+    │   │   ├── github-forked-clone.png
+    │   │   ├── github-forked-owner.png
+    │   │   ├── github-pullrequest-approval.png
+    │   │   ├── github-pullrequest-message.png
+    │   │   ├── github-pullrequest-start.png
+    │   │   ├── github-repo-fork.png
+    │   │   ├── github-repo-issues.png
+    │   │   ├── github-repo-owner.png
+    │   │   └── terminal-start.png
+    │   └── learning-resources.md
+    ├── what-is
+    │   ├── api.md
+    │   ├── civic-hacking.md
+    │   ├── open-data.md
+    │   ├── python.md
+    │   └── ruby.md
+    └── working
+        └── tools.md
 
 So, if I'm in the root of the directory and want to move to the `img` folder, I type `cd img` or `cd ./img` into the terminal. I can then run `ls` to see that `terminal-start.png` is in the current directory.
 

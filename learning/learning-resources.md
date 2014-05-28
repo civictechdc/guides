@@ -1,6 +1,27 @@
 # Resources
 
-Here are some useful guides that might come in handy
+There's always more to learn. Here are some places to get started.
+
+- [General Guides](#general-guides)
+- [Command Line](#command-line)
+- [Git](#git)
+- [Python](#python)
+- [Ruby](#ruby)
+- [Javascript](#javascript)
+- [Web Development (HTML/CSS and beyond)](#web-development)
+- [R](#r)
+- [Geographic Information Systems (GIS)](#gis-qgis)
+
+
+## General Guides
+
+[Lifehacker's Learn to Code](http://lifehacker.com/5744113/learn-to-code-the-full-beginners-guide): general programming guide; explains variables, data types, arrays, logic statements, functions, etc
+
+[List of Free Programming Books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#professional-development)
+
+[Become a Programmer](http://programming-motherfucker.com/become.html): offensive but useful links
+
+[CodeAvengers](http://www.codeavengers.com/)
 
 ## Command Line
 
@@ -39,32 +60,18 @@ Here are some useful guides that might come in handy
 [why's (poignant) guide to ruby](http://www.rubyinside.com/media/poignant-guide.pdf) (PDF): it's incredible
 
 ## Javascript
+
 [Eloquent JavaScript](http://eloquentjavascript.net/contents.html)
 
-## Web development (web dev)
+## Web development
+
 [bentobox.io](http://www.bentobox.io/): learn everything you need to know about web development and more (html,css,js,git,sql,sublime,jquery,etc)
 
 [Mozilla Developer Network Web Development](https://developer.mozilla.org/en-US/docs/Web_Development): great intro to web development (html,css,javascript,etc)
 
 [W3C Schools](http://www.w3schools.com/)
 
-## General Programming & Misc
-[Lifehacker's Learn to Code]
-(http://lifehacker.com/5744113/learn-to-code-the-full-beginners-guide): general programming guide; explains variables, data types, arrays, logic statements, functions, etc
-
-[List of Free Programming Books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#professional-development)
-
-[Become a Programmer]
-
-(http://programming-motherfucker.com/become.html): offensive but useful links
-
-[CodeAvengers](http://www.codeavengers.com/)
-
-## Amazon Web Services (AWS)
-
-[EC2 For Poets](http://ec2.forpoets.org/)
-
-## R 
+## R
 
 [Try R](http://tryr.codeschool.com/): Learn R from your browser
 
@@ -78,5 +85,8 @@ Here are some useful guides that might come in handy
 
 ## GIS (QGIS)
 
-[QGIS Basics for Journalists](http://multimedia.journalism.berkeley.edu/tutorials/qgis-basics-journalists/): great introduction to QGIS 
+[QGIS Basics for Journalists](http://multimedia.journalism.berkeley.edu/tutorials/qgis-basics-journalists/): great introduction to QGIS
 
+## Amazon Web Services (AWS)
+
+[EC2 For Poets](http://ec2.forpoets.org/)
