@@ -32,25 +32,47 @@ Underscore
 
 ## Scraping
 
-BeautifulSoup (Python)
+[BeautifulSoup (Python)](http://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
-## APIs
+[Phantom JS](http://phantomjs.org/)
 
-Census
+## GIS/Mapping
 
-Sunlight
+[QuantumGIS/QGIS](http://qgis.org/en/site/)
 
-SeeClickFix
+[CartodDB](http://cartodb.com)
 
-## Interacting with Government Agencies
+[Mapbox](https://www.mapbox.com)
 
-FOIA
+TileMill
 
-## Reading PDFs
+[Leaflet](http://leafletjs.com/)
+
+[Color Brewer](http://colorbrewer2.org/): Find colors for maps and data viz
+
+## [Data viz](http://selection.datavisualization.ch/)
+
+[D3.js](http://d3js.org/)
+
+[Tableau](http://www.tableausoftware.com/)
+
+[Raphaël](http://raphaeljs.com/)
+
+## Reading/extracting PDFs
 
 Tesseract
 
 Mechanical Turk
+
+[Tabula](http://tabula.nerdpower.org/)
+
+## Data cleaning/munging/conversion
+
+[Google Refine/Open Refine](https://github.com/OpenRefine/OpenRefine)
+
+Datawrangler
+
+[Mr. Data Convertor](http://shancarter.github.io/mr-data-converter/)
 
 ## Hosting
 
@@ -61,3 +83,15 @@ Dotcloud
 Github Pages
 
 Amazon Web Services
+
+## Interacting with Government Agencies
+
+FOIA
+
+## APIs
+
+Census
+
+Sunlight
+
+SeeClickFix
