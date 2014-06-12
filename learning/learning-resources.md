@@ -2,6 +2,7 @@
 
 There's always more to learn. Here are some places to get started.
 
+- [Definitions](#definitions)
 - [General Guides](#general-guides)
 - [Command Line](#command-line)
 - [Git](#git)
@@ -12,6 +13,16 @@ There's always more to learn. Here are some places to get started.
 - [R](#r)
 - [Geographic Information Systems (GIS)](#gis-qgis)
 
+
+## Definitions
+
+[Project Open Data](https://project-open-data.github.io/glossary/)
+
+[Open Data Handbook](http://opendatahandbook.org/en/glossary.html)
+
+[W3](http://www.w3.org/TR/2013/NOTE-ld-glossary-20130627/)
+
+[United States Glossary](https://github.com/unitedstates/glossary/): legal and Congress-related terms
 
 ## General Guides
 
