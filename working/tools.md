@@ -8,27 +8,49 @@ Once you're working on a project, here are some great tools to save you time and
 
 [Color Wheel](https://kuler.adobe.com/create/color-wheel/): Find colors that look great together
 
-## Running a site
+## Licensing your work and collaborating
 
-Jekyll
+Licensing sounds boring, but it's the best way to keep your code open to others. If you don't provide a license, your work is presumed to be fully copyrighted and therefore closed to others. Code for DC recommends keeping your license in a `LICENSE.md` file. If any explanation is necessary for contributions by others, we recommend including that in your readme or in a separate `CONTRIBUTING.md` file.
 
-Django
+[Choose A License](http://choosealicense.com/)
 
-Flask
+## Frameworks for sites and web apps
 
-Node
+Frameworks allow you to create templates and scripts for a dynamic site
+
+[Jekyll](http://jekyllrb.com/): The web framework used by Github Pages; probably most useful if you are using that for hosting
+
+[Django](https://www.djangoproject.com/): A full-featured framework built on Python
+
+[Flask](http://flask.pocoo.org/): Another Python framework; fewer features and less powerful, but simpler to set up
+
+[Express](http://expressjs.com/guide.html): A Node-based framework
+
+[Sinatra](http://www.sinatrarb.com/): A Ruby-based framework
 
 ## Javascript Libraries
 
-jQuery
+[jQuery](https://jquery.com/): Add interactivity to your site
 
-Moment
+[Moment](http://momentjs.com/): Work with dates easily
 
-Underscore
+[Underscore](http://underscorejs.org/): Additional Javascript functionality to make programming simpler
 
-## Font Families
+## Hosting
+
+Heroku: Apps with low data needs are free, and the price after that scales with usage
+
+Dotcloud
+
+Github Pages: Your code already lives there and hosting is free, but all of your information will be out in the open (if passwords, etc. are required, this can be a security risk).
+
+Amazon Web Services
+
+## Font Families and Images
 
 [Font Awesome](https://fortawesome.github.io/Font-Awesome/): Easily add icons to your site
+
+[GSA logos](https://github.com/GSA/logo): Logos for government agencies
 
 ## Scraping
 
@@ -74,21 +96,13 @@ Datawrangler
 
 [Mr. Data Convertor](http://shancarter.github.io/mr-data-converter/)
 
-## Hosting
-
-Heroku
-
-Dotcloud
-
-Github Pages
-
-Amazon Web Services
-
 ## Interacting with Government Agencies
 
 FOIA
 
 ## APIs
+
+[ProgrammableWeb](http://www.programmableweb.com/category/all/apis): Extensive directory of APIs
 
 Census
 

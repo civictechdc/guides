@@ -10,9 +10,9 @@ There's always more to learn. Here are some places to get started.
 - [Ruby](#ruby)
 - [Javascript](#javascript)
 - [Web Development (HTML/CSS and beyond)](#web-development)
+- [Web Hosting](#web-hosting)
 - [R](#r)
 - [Geographic Information Systems (GIS)](#gis-qgis)
-
 
 ## Definitions
 
@@ -82,6 +82,10 @@ There's always more to learn. Here are some places to get started.
 
 [W3C Schools](http://www.w3schools.com/)
 
+## Web Hosting
+
+[Amazon Web Services EC2 For Poets](http://ec2.forpoets.org/)
+
 ## R
 
 [Try R](http://tryr.codeschool.com/): Learn R from your browser
@@ -97,7 +101,3 @@ There's always more to learn. Here are some places to get started.
 ## GIS (QGIS)
 
 [QGIS Basics for Journalists](http://multimedia.journalism.berkeley.edu/tutorials/qgis-basics-journalists/): great introduction to QGIS
-
-## Amazon Web Services (AWS)
-
-[EC2 For Poets](http://ec2.forpoets.org/)
