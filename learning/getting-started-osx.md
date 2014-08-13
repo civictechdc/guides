@@ -40,6 +40,7 @@ We're going to need to tell these commands where to do things. Here's how we do 
 The current directory is notated as `.`. The directory above that is notated as `..`. For example, the structure of this repo is:
 
     .
+    ├── LICENSE.md
     ├── README.md
     ├── graffiti.md
     ├── learning
@@ -58,13 +59,9 @@ The current directory is notated as `.`. The directory above that is notated as 
     │   │   ├── github-repo-owner.png
     │   │   └── terminal-start.png
     │   └── learning-resources.md
-    ├── what-is
-    │   ├── api.md
-    │   ├── civic-hacking.md
-    │   ├── open-data.md
-    │   ├── python.md
-    │   └── ruby.md
     └── working
+        ├── civic.json.template
+        ├── startup-guide.md
         └── tools.md
 
 So, if I'm in the root of the directory and want to move to the `img` folder, I type `cd img` or `cd ./img` into the terminal. I can then run `ls` to see that `terminal-start.png` is in the current directory.
