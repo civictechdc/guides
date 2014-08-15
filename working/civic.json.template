@@ -1,6 +1,11 @@
 {
         "status": "",
         "thumbnailUrl": "",
+        "contact": {
+            "name":"",
+            "email":"",
+            "twitter":""
+        }
         "bornAt": "Code for DC",
         "geography": "DC",
         "governmentPartner": {},
