@@ -1,0 +1,25 @@
+{
+        "status": "Beta",
+        "thumbnailUrl": "",
+        "contact": {
+            "name":"",
+            "email":"",
+            "twitter":"@stvnrlly"
+        }
+        "bornAt": "Code for DC",
+        "geography": "DC",
+        "politicalEntity": {},
+        "governmentPartner": {},
+        "communityPartner": {},
+        "type": "Guide",
+        "needs": [
+            {"need":"Guide translation"},
+            {"need":"Resource submissions"},
+            {"need":"Users"}
+        ],
+        "categories": [
+            {"category":"Guide"},
+            {"category":"Meta project"}
+        ],
+        "moreInfo":""
+}
