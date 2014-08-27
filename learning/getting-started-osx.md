@@ -6,12 +6,12 @@ This is the plan:
 
 1.    [The Command Line](#the-command-line)
 2.    [Working with git and Github](#working-with-git-and-github)
-3.    [Editing!](#editing!)
+3.    [Editing!](#editing)
 4.    [Making a Pull Request](#making-a-pull-request)
 
-We're going to use those skills to edit this very repo! At the end, you'll have your own personal copy of this repo, which you can mess around with. Then, using pull requests, you'll propose a change to this repo from changes you made to your personal copy. That might sound fancy now, but we're going to walk through it and make it easy.
+We're going to use those skills to edit this very repo! At the end, you'll have your own personal ("local" is the jargon) copy of this repo set up on your computer, allowing you to edit and explore freely. Then, using pull requests, you'll propose a change to this repo from changes you made to your personal copy. That might sound fancy now, but we're going to walk through the whole process and make it easy.
 
-If something goes wrong along the way, use Google. Pasting in the error code should get you an explanation of what went wrong and how to fix it.
+If something goes wrong along the way, use Google. Google is your friend. Pasting in the error code should get you an explanation of what went wrong and how to fix it. (Often, the answer will be somewhere on Stack Overflow).
 
 Okay, let's begin.
 
@@ -123,7 +123,7 @@ There are a few other commands that you may want to learn, like `rm`, `cp`, `mv`
 
 In this step, you're going to set up a new command line program called git, get running on Github, and create a local version of this repo to work on.
 
-Git is a piece of version control software. It allows you to work on the same repository (a group of files, basically) as another person, at the exact same time, without totally messing each other up. It does this by grouping changes into `commits`, which you then `push` to the central repo. You can only `push` if your local versions has all the previous commits. So, if somebody else pushed commits since you last checked, you must `pull` and `merge` those changes into your local copy before you can `push` your new changes.
+Git is a piece of version control software. It allows you to work on the same repository (a group of files, basically) as another person, at the exact same time, without totally messing each other up. It does this by grouping changes into `commits`, which you then `push` to the central repo. You can only `push` if your local versions has all the previous commits. So, if somebody else pushed commits since you last checked, you must `pull` and `merge` those changes into your local copy before you can `push` your new changes. Basically, it's a way to make sure that your new changes are made to the most recent version of the repo.
 
 That might sound confusing, but it should become clearer as we walk through the process. So, here we go.
 
@@ -210,17 +210,17 @@ Ready to push? It's easy:
 
     $ git push origin master
 
-In that command, `origin` refers to the version of the repo on Github, and `master` refers to the branch of the repo. Branches are a whole deeper and awesome layer of git, but you don't know about it just quite yet.
+In that command, `origin` refers to the version of the repo on Github, and `master` refers to the branch of the repo. Branches are a whole deeper and more awesome layer of git. `master` is usually the name of the default branch and is a good place to keep the "live" version of the repo, while other branches can be set up to develop features (including commiting and pushing) that aren't ready to be incorporated into that live version just quite yet.
 
 Excellent! You have now edited your repo. Now it's time to request that your changes be pulled back into the original Code for DC version of the repo.
 
 ## Making a Pull Request
 
-Back on Github, open up your repo. Remember that `Pull Requests` tab over on the right? Well, now we're going to use it. On that page, just click the `New pull request` button up on the right. You'll end up here:
+Back on the Github site, open up your fork of the repo. Remember that `Pull Requests` tab over on the right? Well, now we're going to use it. On that page, just click the `New pull request` button up on the right. You'll end up here:
 
 ![](./img/github-pullrequest-start.png)
 
-Github will automatically compare your repo against the Code for DC repo. If everything outside of your committed changes is the same in both repos (this might not be the case if somebody pushed a commit to the file you're working on since you began working), Github will tell you that the pull request can be automatically merged, which will help the owner of the other repo. You can (should) also enter a message explaining what the commits in your pull request will do. Once you're satisfied, hit `Create Pull Request`.
+Github will automatically compare your repo against the Code for DC repo. If everything outside of your committed changes is the same in both repos (this might not be the case if somebody pushed a commit to the file you're working on since you last pulled), Github will tell you that the pull request can be automatically merged, which will help the owner of the other repo. You can (and should) also enter a message explaining what the commits in your pull request will do. Once you're satisfied, hit `Create Pull Request`. 
 
 ![](./img/github-pullrequest-message.png)
 
@@ -228,6 +228,6 @@ That's it! On the other side, your pull request will look like this:
 
 ![](./img/github-pullrequest-approval.png)
 
-The owner might accept your request and merge the commits, discuss it and perhaps ask for some changes to the commits, or decline to accept it. In this case, we probably won't accept your first pull request. This is so that you can practice editing and re-submitting a request, and has nothing to do with how good the commits are.
+The owner might accept your request and merge the commits, discuss it and perhaps ask for some changes to the commits, or decline to accept it.
 
 Now you're ready to take on a new challenge, either by finding a [Code for DC project](codefordc.org/projects) to work on, or by creating a new project to add to that list. Happy hacking!
