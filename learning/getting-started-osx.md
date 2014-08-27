@@ -4,10 +4,10 @@ Welcome! This guide assumes that you are a total newcomer (but, hopefully, you k
 
 This is the plan:
 
-1.    The Command Line
-2.    Working with git and Github
-3.    Editing!
-4.    Making a Pull Request
+1.    [The Command Line](#the-command-line)
+2.    [Working with git and Github](#working-with-git-and-github)
+3.    [Editing!](#editing!)
+4.    [Making a Pull Request](#making-a-pull-request)
 
 We're going to use those skills to edit this very repo! At the end, you'll have your own personal copy of this repo, which you can mess around with. Then, using pull requests, you'll propose a change to this repo from changes you made to your personal copy. That might sound fancy now, but we're going to walk through it and make it easy.
 
