@@ -181,9 +181,9 @@ In order to code, you'll probably want a text editor that understands code. Some
 
 For our purposes, that's pretty much all you'll need. While we're here, though, we might as well check that you have some of the major programming languages installed on your machine. To do this, we're going to run a couple of ["Hello World"](https://en.wikipedia.org/wiki/Hello_world_program) programs, which we've already put in the repo. It should go something like this:
 
-    $ python hello-world/hello-world.py
+    $ python learning/hello-world/hello-world.py
     Hello World! (in Python)
-    $ ruby hello-world/hello-world.rb
+    $ ruby learning/hello-world/hello-world.rb
     Hello World! (in Ruby)
 
 You can open those files up in your new text editor to see how that happened.
