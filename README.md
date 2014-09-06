@@ -1,14 +1,10 @@
-# Getting Started
+# Guides
 
-The goal of this repo is to help you get started at Code for DC, no matter what your goal is.
+The goal of this repo is to help you learn how to do stuff.
 
-## Learning
+## Git and Github
 
-If you're new to coding or need a refresher, you'll find helpful resources in `learning` to get up and running.
-
-## Starting and Working on a Project
-
-If you'd like to bring a project to Code for DC, you'll find Code for DC's guidelines and lists of helpful tools in `working`.
+Most of Code for DC's projects use a site called Github to hold their code. If you're new to Github, check out our guide to get up and running.
 
 ## Contributing to this repo
 
