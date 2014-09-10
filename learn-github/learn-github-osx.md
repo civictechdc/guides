@@ -42,9 +42,10 @@ The current directory is notated as `.`. The directory above that is notated as 
     .
     ├── LICENSE.md
     ├── README.md
+    ├── civic.json
+    ├── further-reading.md
     ├── graffiti.md
-    ├── learning
-    │   ├── getting-started-osx.md
+    ├── learn-github
     │   ├── hello-world
     │   │   ├── hello-world.py
     │   │   └── hello-world.rb
@@ -58,11 +59,8 @@ The current directory is notated as `.`. The directory above that is notated as 
     │   │   ├── github-repo-issues.png
     │   │   ├── github-repo-owner.png
     │   │   └── terminal-start.png
-    │   └── learning-resources.md
-    └── working
-        ├── civic.json.template
-        ├── startup-guide.md
-        └── tools.md
+    │   └── learn-github-osx.md
+    └── tools.md
 
 So, if I'm in the root of the directory and want to move to the `img` folder, I type `cd img` or `cd ./img` into the terminal. I can then run `ls` to see that `terminal-start.png` is in the current directory.
 
@@ -220,7 +218,7 @@ Back on the Github site, open up your fork of the repo. Remember that `Pull Requ
 
 ![](./img/github-pullrequest-start.png)
 
-Github will automatically compare your repo against the Code for DC repo. If everything outside of your committed changes is the same in both repos (this might not be the case if somebody pushed a commit to the file you're working on since you last pulled), Github will tell you that the pull request can be automatically merged, which will help the owner of the other repo. You can (and should) also enter a message explaining what the commits in your pull request will do. Once you're satisfied, hit `Create Pull Request`. 
+Github will automatically compare your repo against the Code for DC repo. If everything outside of your committed changes is the same in both repos (this might not be the case if somebody pushed a commit to the file you're working on since you last pulled), Github will tell you that the pull request can be automatically merged, which will help the owner of the other repo. You can (and should) also enter a message explaining what the commits in your pull request will do. Once you're satisfied, hit `Create Pull Request`.
 
 ![](./img/github-pullrequest-message.png)
 
