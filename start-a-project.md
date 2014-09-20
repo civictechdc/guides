@@ -10,7 +10,7 @@ To take the administrative burden off of you, Code for DC can set up a repo for 
 
 ## Put a `civic.json` file in that repo
 
-A `civic.json` file is the metadata file of the type of civic-oriented project we work on here at Code for DC.
+A `civic.json` file is the metadata file of the type of civic-oriented project we work on here at Code for DC. We've made a template to start you off, and it's available right [here](./civic-dot-json/civic.json.template). For instructions on how to fill it out, check out the specifications [here](./civic-dot-json/specification.md).
 
 ## Let everybody know
 
