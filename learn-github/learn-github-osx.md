@@ -137,11 +137,11 @@ As mentioned above, git works by holding a central repo of all of the files, to 
 
 Once you're set up with Github, look around this page (mostly near the top) and you'll notice a few things.
 
-First, the name of the repo and its owner. This is listed on the page, as well as in the URL. Right below that, in the gray bar, you can check out the commit history of the repo, which can show you which change happened when. For example, [in this repo](https://github.com/codefordc/getting-started/commits/master), you can see that the [first commit](https://github.com/codefordc/getting-started/commit/1b08f69b2fd5837af42dc12326bd9394414dfbe5) included a few files, the [second commit](https://github.com/codefordc/getting-started/commit/4fb3ad2022931b5a057f4ffe0061c832454ce4d1) was a commit from a pull request, the [third commit](https://github.com/codefordc/getting-started/commit/044f148863601491e1dce26f1f14dc25e4d513b0) merged that commit from a fork of the repo into the Code for DC repo (it might look confusing because @stvnrlly made both commits), and the [fourth commit](https://github.com/codefordc/getting-started/commit/defc8390dce25e61236f350311e124d0bea80d48) added screenshots and more text to this document.
+First, the name of the repo and its owner. This is listed on the page, as well as in the URL. Right below that, in the gray bar, you can check out the commit history of the repo, which can show you which change happened when. For example, [in this repo](https://github.com/codefordc/guides/commits/master), you can see that the [first commit](https://github.com/codefordc/guides/commit/1b08f69b2fd5837af42dc12326bd9394414dfbe5) included a few files, the [second commit](https://github.com/codefordc/guides/commit/4fb3ad2022931b5a057f4ffe0061c832454ce4d1) was a commit from a pull request, the [third commit](https://github.com/codefordc/guides/commit/044f148863601491e1dce26f1f14dc25e4d513b0) merged that commit from a fork of the repo into the Code for DC repo (it might look confusing because @stvnrlly made both commits), and the [fourth commit](https://github.com/codefordc/guides/commit/defc8390dce25e61236f350311e124d0bea80d48) added screenshots and more text to this document.
 
 ![](./img/github-repo-owner.png)
 
-Second, to the right of the code, the `Issues` and `Pull Requests` tabs. Issues are for discussing ideas and problems with the repo. Check out the [issues for this repo](https://github.com/codefordc/getting-started/issues) to see what we're discussing; maybe you can help resolve one of them! Pull requests are how you ask to have your commits added to the repo, which we'll cover once you've pushed some commits to your own version of the repo.
+Second, to the right of the code, the `Issues` and `Pull Requests` tabs. Issues are for discussing ideas and problems with the repo. Check out the [issues for this repo](https://github.com/codefordc/guides/issues) to see what we're discussing; maybe you can help resolve one of them! Pull requests are how you ask to have your commits added to the repo, which we'll cover once you've pushed some commits to your own version of the repo.
 
 ![](./img/github-repo-issues.png)
 
@@ -151,7 +151,7 @@ Third, the `Fork` button up in the top right. If you don't have push permissions
 
 So, how do you add your code to the main repo? By making a pull request. This tells the repo's owner that you'd like them to merge some of your commits from your fork into the main repo. Before you do that, though, you'll need to make some commits, and that means doing some coding.
 
-To work on the code, you'll need to get a local copy of the repo. Get started by clicking that `Fork` button, which will take you to your own special version of the repo. As you can see, this repo has the full commit history of the repo you just forked, but it will not include future changes without a pull request. If you go look at [@stvnrlly's fork](https://github.com/stvnrlly/getting-started), for instance, you'll see that it doesn't have any of the more recent commits to the Code for DC repo, but it does have some commits unique to the fork.
+To work on the code, you'll need to get a local copy of the repo. Get started by clicking that `Fork` button, which will take you to your own special version of the repo. As you can see, this repo has the full commit history of the repo you just forked, but it will not include future changes without a pull request. If you go look at [@stvnrlly's fork](https://github.com/stvnrlly/guides), for instance, you'll see that it doesn't have any of the more recent commits to the Code for DC repo, but it does have some commits unique to the fork.
 
 ![](./img/github-forked-owner.png)
 
@@ -169,9 +169,9 @@ If you haven't done anything extra, your `Programming` folder should now look so
 
     .
     ├── hello-world.txt
-    └── getting-started
+    └── guides
 
-We're going to work on the files in the `getting-started` directory, so go ahead and `cd` into it.
+We're going to work on the files in the `guides` directory, so go ahead and `cd` into it.
 
 ## Editing!
 
@@ -226,6 +226,8 @@ That's it! On the other side, your pull request will look like this:
 
 ![](./img/github-pullrequest-approval.png)
 
-The owner might accept your request and merge the commits, discuss it and perhaps ask for some changes to the commits, or decline to accept it.
+The owner might accept your request and merge the commits, discuss it and perhaps ask for some changes to the commits, or decline to accept it. You can monitor how up-to-date your fork is by checking out the status bar right above the files:
+
+![](./img/github-forked-status.png)
 
 Now you're ready to take on a new challenge, either by finding a [Code for DC project](codefordc.org/projects) to work on, or by creating a new project to add to that list. Happy hacking!
