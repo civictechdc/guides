@@ -1,4 +1,5 @@
 {
+        "conformsTo": "https://github.com/codefordc/guides/blob/master/using-civic.json/specification.md",
         "status": "",
         "thumbnailUrl": "",
         "contact": {
@@ -7,11 +8,14 @@
             "twitter":""
         },
         "bornAt": "Code for DC",
-        "geography": "DC",
+        "geography": "Washington, DC",
         "politicalEntity": {},
         "governmentPartner": {},
         "communityPartner": {},
         "type": "",
+        "data": [
+
+        ],
         "needs": [
 
         ],
