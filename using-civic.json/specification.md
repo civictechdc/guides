@@ -21,13 +21,13 @@ Our schema is based on the work done by [BetaNYC](https://github.com/BetaNYC/civ
 5. `geography` - text indicating the city, state, county, or other geographic entity this project is relevant to.  Any text is allowed.
 
         examples: "Washington, DC", "NYC", "Greater Baltimore"
-6. `politicalEntity` - a dictionary indicating any political entity to which the project is relevant. The key is the entity's name, and the value is the entity's URL.
+6. `politicalEntity` - an object indicating any political entity to which the project is relevant. The key is the entity's name, and the value is the entity's URL.
 
         example: {"DC Council": "http://www.dccouncil.washington.dc.us/"}
-7.  `governmentPartner` - a dictionary indicating any political entity with which the project is working. The key is the entity's name, and the value is the entity's URL.
+7.  `governmentPartner` - an object indicating any political entity with which the project is working. The key is the entity's name, and the value is the entity's URL.
 
         example: {"DC Council": "http://www.dccouncil.washington.dc.us/"}
-8.  `communityPartner` - a dictionary indicating the community organizations with which the project is working. The key is the org's name, and the value is the org's URL.
+8.  `communityPartner` - an object indicating the community organizations with which the project is working. The key is the org's name, and the value is the org's URL.
 
         example: {"Bread for the City": "http://www.breadforthecity.org/"}
 9. `type` - text describing the type of project.  Any text is allowed, but a selection from the recommended values is advised:
@@ -37,17 +37,16 @@ Our schema is based on the work done by [BetaNYC](https://github.com/BetaNYC/civ
    * `"Policy Document"`
    * `"Dataset"`
 
-10. `data` - an array of "dataset" objects.
-11. `dataset` - text linking to the dataset used in the project.
-12. `needs` - an array of "need" or "want" objects.  Needs are considered necessary to the success of the project, while wants are considered enhancements.  There is no limit to the number of objects included in a project.
-13. `need` or `want` - text indicating a need or want of the project.  This can be a skillset that is needed, or any other resource.  Any text is allowed.
+10. `data` - an object of "dataset" objects. The key is the name of the dataset, and the value is the dataset's URL.
+11. `needs` - an array of "need" or "want" objects.  Needs are considered necessary to the success of the project, while wants are considered enhancements.  There is no limit to the number of objects included in a project.
+12. `need` or `want` - text indicating a need or want of the project.  This can be a skillset that is needed, or any other resource.  Any text is allowed.
 
         examples: "Web Designer", "Web Hosting", "Political Sponsorship"
-14. `categories` - an array of "category" objects.  There is no limit to the number of categories included in a project.
-15. `category` - text indicating the category of the project.  Any text is allowed.
+13. `categories` - an array of "category" objects.  There is no limit to the number of categories included in a project.
+14. `category` - text indicating the category of the project.  Any text is allowed.
 
         examples:  "Land Use", "Transportation", "Politics", "Financial", "Open Data"
-16. `moreInfo` - a URL to a document or site with more information about the project, such as a Hackpad or Google Doc.
+15. `moreInfo` - a URL to a document or site with more information about the project, such as a Hackpad or Google Doc.
 
 ## Example civic.json
 

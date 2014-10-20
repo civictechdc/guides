@@ -13,14 +13,8 @@
         "governmentPartner": {},
         "communityPartner": {},
         "type": "",
-        "data": [
-
-        ],
-        "needs": [
-
-        ],
-        "categories": [
-
-        ],
+        "data": {},
+        "needs": [],
+        "categories": [],
         "moreInfo":""
 }

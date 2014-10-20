@@ -51,7 +51,7 @@
             "blank":true
         },
         "data":{
-            "type":"array",
+            "type":"object",
             "required":false
         },
         "needs":{
