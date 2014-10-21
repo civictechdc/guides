@@ -17,36 +17,37 @@ This is based on the work done by [BetaNYC](https://github.com/BetaNYC/civic.jso
    * `"Archival"` - Finished Product, development ongoing
 
 3. `thumbnailUrl` - a URL to an image associated with the project listing.
-4. `bornAt` - text indicating the name of the event the project was conceived at, if any.  Any text is allowed.
-5. `geography` - text indicating the city, state, county, or other geographic entity this project is relevant to.  Any text is allowed.
+4. `contact` - an object containing `name`, `email`, and `twitter` objects, with each representing the preferred contact information for the project.
+5. `bornAt` - text indicating the name of the event the project was conceived at, if any.  Any text is allowed.
+6. `geography` - text indicating the city, state, county, or other geographic entity this project is relevant to.  Any text is allowed.
 
         examples: "Washington, DC", "NYC", "Greater Baltimore"
-6. `politicalEntity` - an object indicating any political entity to which the project is relevant. The key is the entity's name, and the value is the entity's URL.
+7. `politicalEntity` - an object indicating any political entity to which the project is relevant. The key is the entity's name, and the value is the entity's URL.
 
         example: {"DC Council": "http://www.dccouncil.washington.dc.us/"}
-7.  `governmentPartner` - an object indicating any political entity with which the project is working. The key is the entity's name, and the value is the entity's URL.
+8.  `governmentPartner` - an object indicating any political entity with which the project is working. The key is the entity's name, and the value is the entity's URL.
 
         example: {"DC Council": "http://www.dccouncil.washington.dc.us/"}
-8.  `communityPartner` - an object indicating the community organizations with which the project is working. The key is the org's name, and the value is the org's URL.
+9.  `communityPartner` - an object indicating the community organizations with which the project is working. The key is the org's name, and the value is the org's URL.
 
         example: {"Bread for the City": "http://www.breadforthecity.org/"}
-9. `type` - text describing the type of project.  Any text is allowed, but a selection from the recommended values is advised:
+10. `type` - text describing the type of project.  Any text is allowed, but a selection from the recommended values is advised:
 
    * `"Web App"`
    * `"Mobile App"`
    * `"Policy Document"`
    * `"Dataset"`
 
-10. `data` - an object of "dataset" objects. The key is the name of the dataset, and the value is the dataset's URL.
-11. `needs` - an array of "need" or "want" objects.  Needs are considered necessary to the success of the project, while wants are considered enhancements.  There is no limit to the number of objects included in a project.
-12. `need` or `want` - text indicating a need or want of the project.  This can be a skillset that is needed, or any other resource.  Any text is allowed.
+11. `data` - an object of "dataset" objects. The key is the name of the dataset, and the value is the dataset's URL.
+12. `needs` - an array of "need" or "want" objects.  Needs are considered necessary to the success of the project, while wants are considered enhancements.  There is no limit to the number of objects included in a project.
+13. `need` or `want` - text indicating a need or want of the project.  This can be a skillset that is needed, or any other resource.  Any text is allowed.
 
         examples: "Web Designer", "Web Hosting", "Political Sponsorship"
-13. `categories` - an array of "category" objects.  There is no limit to the number of categories included in a project.
-14. `category` - text indicating the category of the project.  Any text is allowed.
+14. `categories` - an array of "category" objects.  There is no limit to the number of categories included in a project.
+15. `category` - text indicating the category of the project.  Any text is allowed.
 
         examples:  "Land Use", "Transportation", "Politics", "Financial", "Open Data"
-15. `moreInfo` - a URL to a document or site with more information about the project, such as a Hackpad or Google Doc.
+16. `moreInfo` - a URL to a document or site with more information about the project, such as a Hackpad or Google Doc.
 
 ## Example civic.json
 
@@ -54,30 +55,32 @@ This is based on the work done by [BetaNYC](https://github.com/BetaNYC/civic.jso
 {
     "conformsTo": "https://raw.githubusercontent.com/codefordc/guides/master/using-civic.json/specification.md",
     "status": "Production",
-    "thumbnailUrl":"http://ancfinder.org/static/img/favicon.png",
-    "needs": [
-        {"need":"ANC document uploading"},
-        {"need":"Python"}
-    ],
+    "thumbnailUrl":"http://example.com/static/img/favicon.png",
+    "contact":
+        {
+            "name": "",
+            "email": "contactus@example.com",
+            "twitter": "@codefordc"
+        },
     "bornAt": "Code for DC",
     "geography": "DC",
-
+    "communityPartner": {"Community Organization":"http://example.com"},
+    "politicalEntity": {"Office of Something":"http://something.dc.gov/"},
+    "governmentPartner": {},
     "type": "Web App",
+    "data": {
+        "A Useful Dataset":"http://example.com/dataset",
+        "Another Dataset":"http://example.com/otherstuff"
+    },
+    "needs": [
+        {"need":"Ruby on Rails"},
+        {"need":"Spreadsheet Experts"}
+    ],
     "categories": [
         {"category":"Politics"},
         {"category":"Government"},
         {"category":"Open Data"}
     ],
-    "geography": "Washington, DC",
-    "contact":
-        {
-            "name": "",
-            "email": "contactus@ancfinder.org",
-            "twitter": "@ancfinder"
-        },
-    "communityPartner": {},
-    "politicalEntity": {"Office of Advisory Neighborhood Commissions":"http://anc.dc.gov/"},
-    "governmentPartner": {},
     "moreInfo": ""
 }
 ```
