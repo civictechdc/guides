@@ -1,12 +1,12 @@
-# `civic.json` schema
+# `civic.json` Specification
 
-Our schema is based on the work done by [BetaNYC](https://github.com/BetaNYC/civic.json/blob/master/specification.md).
+This is based on the work done by [BetaNYC](https://github.com/BetaNYC/civic.json/blob/master/specification.md).
 
 ## File Location and contents
 1. `civic.json` shall reside in the root directory of a project's github repository.
 2. `civic.json` shall include a single object represented as JSON, with the key/value pairs outlined below.
 
-## Key/Value Specification
+## Key/Value Pairs
 1. `conformsTo` - a link to the schema used in the `civic.json` file.
 2. `status` - text indicating the status of the project.  Any text is allowed, but a selection from the recommended values is advised:
 
