@@ -56,6 +56,8 @@ There's always more to learn. Here are some places to get started.
 
 [A Guide to Github Pages](http://www.thinkful.com/learn/a-guide-to-using-github-pages/)
 
+[Git and GitHub Glossary](https://help.github.com/articles/github-glossary/)
+
 ## Python
 
 [Codecademy](http://www.codecademy.com/tracks/python): an online course with lessons and exercises
