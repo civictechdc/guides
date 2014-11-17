@@ -26,4 +26,12 @@ Head over to codefordc.org/projects and submit the project's repo URL to us. We'
 
 ## Bonus: Make contributing easy
 
-To allow potential contributors to get up and running on the project quickly, we recommend using tools like the [Chrome Dev Editor](https://chrome.google.com/webstore/detail/chrome-dev-editor-develop/pnoffddplpippgcfjdhbmhkofpnaalpg?hl=en), [Docker](https://www.youtube.com/watch?v=VeiUjkiqo9E), or [Vagrant](https://docs.vagrantup.com/v2/why-vagrant/)to simplify local installation.
+### Use Common and Accessible Tools
+
+When choosing the tools that will be used to build the project, consider the startup time that a new recruit will need to learn how to use those tools. Since Code for DC projects are mostly volunteer projects and are open to non-experts, using tools that are common across projects or that are simpler to learn may significantly reduce startup time and increase the number of pull requests you receive. There is a trade-off between cutting-edge and community engagement, so keep that in mind.
+
+For example, the Code for DC website is built in Jekyll to take advantage of Github Pages. Jekyll has built-in support for Sass, so we have a choice between that and CSS when writing our stylesheets. Sass is pretty useful, but using it would require anybody who wants to work on our CSS to learn an entire new language. As a result, we're sticking with CSS for now to keep things accessible.
+
+### Simple Installation
+
+To allow potential contributors to get up and running on the project quickly, we recommend using tools like the [Chrome Dev Editor](https://chrome.google.com/webstore/detail/chrome-dev-editor-develop/pnoffddplpippgcfjdhbmhkofpnaalpg?hl=en), [Docker](https://www.youtube.com/watch?v=VeiUjkiqo9E), or [Vagrant](https://docs.vagrantup.com/v2/why-vagrant/) to simplify local installation. Less time installing the project means more time getting work done!
