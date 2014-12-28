@@ -4,4 +4,8 @@ There's a lot of data out there, but sometimes you need to know where to look. W
 
 ## Mapping
 
+Urban layers and mapping http://morphocode.com/making-urban-layers/
+Maps and Detroit http://datadrivendetroit.org/
+Google location history https://maps.google.com/locationhistory/
+
 ## Transit
