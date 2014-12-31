@@ -2,6 +2,12 @@
 
 So you have a project--or an idea for a project--to make life better for the people of DC and you want to bring it to Code for DC? Awesome! We're glad you thought of us. In order to help us help you, here's what you should do:
 
+## EASY VERSION: Come to a meetup
+
+If the following looks daunting, or if you're not sure whether it's worth your time, just come and talk to us at a meetup. We'll make sure to get you on the right track.
+
+For the more in-depth steps, read on.
+
 ## Make a Github repo
 
 You may already have one, but make sure that you have a Github repo for the project. This is true even if the project is still just an idea: a repo saves the space, offers some discussion tools, and makes it possible for other people to begin working on the project. The only document that's really required is a `README` file explaining (1) what the project is and (2) how to run the project locally, if applicable.
