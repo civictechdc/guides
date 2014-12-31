@@ -22,7 +22,7 @@ A `civic.json` file is the metadata file of the type of civic-oriented project w
 
 ## Let everybody know
 
-Head over to codefordc.org/projects and submit the project's repo URL to us. We'll pull information from Github and that `civic.json` file and make it look nice. Feel free to send a message out to the [listserv](https://groups.google.com/forum/#!forum/dc-cfa-brigade), as well, explaining what the project is and what sort of help you think is needed.
+Head over to [the projects page](http://codefordc.org/projects) and submit the project's repo URL to us. We'll pull information from Github and that `civic.json` file and make it look nice. Feel free to send a message out to the [listserv](https://groups.google.com/forum/#!forum/dc-cfa-brigade), as well, explaining what the project is and what sort of help you think is needed.
 
 ## Bonus: Make contributing easy
 
