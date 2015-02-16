@@ -62,28 +62,30 @@ how we do that:
 The current directory is notated as `.`. The directory above that is
 notated as `..`. For example, the structure of this repo is:
 
+<pre>
     .
-    ├── LICENSE.md
-    ├── README.md
-    ├── civic.json
-    ├── further-reading.md
-    ├── graffiti.md
-    ├── learn-github
-    │   ├── hello-world
-    │   │   ├── hello-world.py
-    │   │   └── hello-world.rb
-    │   ├── img
-    │   │   ├── github-forked-clone.png
-    │   │   ├── github-forked-owner.png
-    │   │   ├── github-pullrequest-approval.png
-    │   │   ├── github-pullrequest-message.png
-    │   │   ├── github-pullrequest-start.png
-    │   │   ├── github-repo-fork.png
-    │   │   ├── github-repo-issues.png
-    │   │   ├── github-repo-owner.png
-    │   │   └── terminal-start.png
-    │   └── learn-github-osx.md
-    └── tools.md
+    &#x0251C;&#x02500;&#x02500; LICENSE.md
+    &#x0251C;&#x02500;&#x02500; README.md
+    &#x0251C;&#x02500;&#x02500; civic.json
+    &#x0251C;&#x02500;&#x02500; further-reading.md
+    &#x0251C;&#x02500;&#x02500; graffiti.md
+    &#x0251C;&#x02500;&#x02500; learn-github
+    &#x02502;   &#x0251C;&#x02500;&#x02500; hello-world
+    &#x02502;   &#x02502;   &#x0251C;&#x02500;&#x02500; hello-world.py
+    &#x02502;   &#x02502;   &#x02514;&#x02500;&#x02500; hello-world.rb
+    &#x02502;   &#x0251C;&#x02500;&#x02500; img
+    &#x02502;   &#x02502;   &#x0251C;&#x02500;&#x02500; github-forked-clone.png
+    &#x02502;   &#x02502;   &#x0251C;&#x02500;&#x02500; github-forked-owner.png
+    &#x02502;   &#x02502;   &#x0251C;&#x02500;&#x02500; github-pullrequest-approval.png
+    &#x02502;   &#x02502;   &#x0251C;&#x02500;&#x02500; github-pullrequest-message.png
+    &#x02502;   &#x02502;   &#x0251C;&#x02500;&#x02500; github-pullrequest-start.png
+    &#x02502;   &#x02502;   &#x0251C;&#x02500;&#x02500; github-repo-fork.png
+    &#x02502;   &#x02502;   &#x0251C;&#x02500;&#x02500; github-repo-issues.png
+    &#x02502;   &#x02502;   &#x0251C;&#x02500;&#x02500; github-repo-owner.png
+    &#x02502;   &#x02502;   &#x02514;&#x02500;&#x02500; terminal-start.png
+    &#x02502;   &#x02514;&#x02500;&#x02500; learn-github-osx.md
+    &#x02514;&#x02500;&#x02500; tools.md
+</pre>
 
 So, if I'm in the root of the directory and want to move to the `img`
 folder, I type `cd img` or `cd ./img` into the terminal. I can then
@@ -290,9 +292,11 @@ new local copy of your forked repo, ready to be hacked on.
 If you haven't done anything extra, your `Programming` folder should
 now look something like this:
 
+<pre>
     .
-    ├── hello-world.txt
-    └── guides
+    &#x0251C;&#x02500;&#x02500; hello-world.txt
+    &#x02514;&#x02500;&#x02500; guides
+</pre>
 
 We're going to work on the files in the `guides` directory, so go
 ahead and `cd` into it.

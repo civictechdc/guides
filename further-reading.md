@@ -43,7 +43,7 @@ offensive but useful links
 [A Command Line Primer for Beginners](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything):
 Good general command line primer
 
-[The designer’s guide to the OSX command prompt](http://wiseheartdesign.com/articles/2010/11/12/the-designers-guide-to-the-osx-command-prompt/):
+[The designer's guide to the OSX command prompt](http://wiseheartdesign.com/articles/2010/11/12/the-designers-guide-to-the-osx-command-prompt/):
 Mac command line guide
 
 [Command Prompt Basics - A Getting Started Guide](http://dosprompt.info/):

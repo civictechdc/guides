@@ -104,7 +104,7 @@ data viz
 
 [Tableau](http://www.tableausoftware.com/)
 
-[Raphaël](http://raphaeljs.com/)
+[Rapha&euml;l](http://raphaeljs.com/)
 
 ## Reading/extracting PDFs
 
