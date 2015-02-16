@@ -65,3 +65,11 @@ Linux systems as well. Most Linux users should already know how to
 install software for their distribution, and git, having been written
 by Linus Torvalds himself, is likely to be very available in any Linux
 distribution.
+
+Check out GitHub's own
+[Training Kit](https://training.github.com/kit/) as well as their
+[Classes](https://training.github.com/classes/).
+
+[OpenHatch](https://openhatch.org/) provides educational resorces and
+"training missions" to help people on their way towards collaborative
+open source development.
