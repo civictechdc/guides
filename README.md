@@ -1,3 +1,5 @@
+WARNING: This repo is in the process of being deprecated and absorbed into other repos. With the exception of the Github guide, the guides have been incorporated directly into Code for DC's website, [here](https://github.com/codefordc/codefordc-2.0/tree/master/_resources).
+
 # Guides
 
 The goal of this repo is to help you learn how to do stuff.
